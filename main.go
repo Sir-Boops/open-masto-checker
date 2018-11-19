@@ -12,7 +12,7 @@ func main() {
 
   for i := 0; i < len(url_list); i++ {
     if check_if_open(url_list[i]) {
-      fmt.Println("<a href='http://" + url_list[i] + "'>" + url_list[i] + "</a><br>");
+      fmt.Println("<a href='https://" + url_list[i] + "/about'>" + url_list[i] + "</a><br>");
     }
   }
 }
